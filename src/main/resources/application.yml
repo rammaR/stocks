@@ -1,15 +1,14 @@
 server:
-  port: 9090
+  port: my-post-number
   servlet:
     context-path: /bootcamp
 
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    #url: jdbc:postgresql://localhost:5432/postgres
-    url: postgres://tglrytsdrpqjsg:6cb06def92708e427174bab4f661c609f0cda20b1e2ae40a69910b5e62510841@ec2-108-128-104-50.eu-west-1.compute.amazonaws.com:5432/dltkoh3ltr1o9
-    username: tglrytsdrpqjsg
-    password: 6cb06def92708e427174bab4f661c609f0cda20b1e2ae40a69910b5e62510841
+    url: my-url
+    username: my-username
+    password: my-password
   jpa:
     show-sql: true
     database-platform: org.hibernate.dialect.PostgreSQLDialect
